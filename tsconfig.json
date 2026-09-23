@@ -16,14 +16,17 @@
       "react-dom"
     ],
     "paths": {
+      "@data/*": [
+        "./src/data/*"
+      ],
       "@hooks/*": [
         "./src/hooks/*"
       ],
       "@utils/*": [
         "./src/utils/*"
       ],
-      "@types/*": [
-        "./src/types/*"
+      "@models/*": [
+        "./src/models/*"
       ]
     }
   },
