@@ -9,6 +9,9 @@
       "require": "./.dist/index.cjs"
     }
   },
+  "files": [
+    ".dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --inject ./src/react.inject.ts --dts --format esm,cjs --clean --out-dir .dist --minify",
     "release": "pnpm run build && pnpm publish --access public",
@@ -58,7 +61,7 @@
     "vitest": "^5.0.1"
   },
   "dependencies": {
-    "@akb2/react-use-local-storage": "^1.1.0",
+    "@akb2/react-use-local-storage": "^1.1.1",
     "@akb2/types-tools": "^1.5.0",
     "react": "^18.3.1"
   },
