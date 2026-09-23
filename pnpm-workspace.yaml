@@ -3,4 +3,5 @@ allowBuilds:
 minimumReleaseAgeExclude:
   # Todo: Need to remove the rule after 23.09.2026 19:00 GMT4
   - '@akb2/react-use-local-storage@1.1.0'
-  - '@akb2/types-tools@1.4.0 || 1.4.1'
+  # Todo: Need to remove the rule after 24.09.2026 15:00 GMT4
+  - '@akb2/types-tools@1.5.0'
